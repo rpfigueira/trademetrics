@@ -1,7 +1,7 @@
 TRADEMETRICS - calculation of network metris on CITES bird trade data
 
-This project allows to calculate network metrics for the trade database of birds prepared from the CITES Trade Database. 
-It uses two tables as source data from a mysql database, one with the network vertices, and another with network edges, to calculate several network metrics, using the Gephi Toolkit Library (https://gephi.org/toolkit).
+This project allows to calculate network metrics of the trade database of birds prepared from the CITES Trade Database. It was developed during the following study:  **Networks of global bird invasion altered by regional trade ban** (https://doi.org/10.1126/sciadv.1700783).
+The application uses two tables as source data from a mysql database, one with the network vertices, and another with network edges, to calculate several network metrics, using the Gephi Toolkit Library (https://gephi.org/toolkit).
 It returns to the database a table with all metrics deteremined for each bird species. As an option, it allows the output of a printout as pdf of each network image.
 
 Requirements
